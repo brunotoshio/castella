@@ -1,0 +1,14 @@
+settings:
+  output:
+    file: tweets.csv
+    database:
+      url: '127.0.0.1'
+      port: 27017
+      database: 'tweetdb'
+      collection: 'tweets'
+  search:
+    query: 'any twitter query'
+    params:
+  interval:
+    each: 'day'
+    amount: 30

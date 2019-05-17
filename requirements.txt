@@ -1,0 +1,4 @@
+pymongo==3.6.1
+PyYAML==3.12
+schedule==0.6.0
+tweepy==3.6.0
