@@ -1,5 +1,5 @@
 accounts:
-  - consumer_api_key: None
-		consumer_api_key_secret: None
-		access_token: None
-    access_token_secret: None
+  - consumer_api_key: 76fE665DFMny5pX5k8Edj5DnO
+    consumer_api_key_secret: FEr98CIXG5YJ79HnKXplAhSXCfITnxCe7qopU6OT5RtNjDQ2WP
+    access_token: 994433738091065345-YHTYK8sh3HF6aYwM3jR7C8Dd23MY0Cv
+    access_token_secret: xcPU63SJTVh3kjJCBoEnsC9xvuLp4OuSxNGttpMUCp8Ei

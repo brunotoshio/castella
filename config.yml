@@ -1,4 +1,0 @@
-configuration:
-  server:
-    url: 'http://192.168.11.10:8000'
-    endpoint: '/accounts/unblocked'

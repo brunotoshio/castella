@@ -30,7 +30,6 @@ Change the `settings.yml` for your needs:
 ```yaml
 settings:
   output:
-    file: tweets.csv
     database:
       url: '127.0.0.1'
       port: 27017
@@ -44,7 +43,6 @@ settings:
     amount: 30
  ```
  
- The `output` defines the type of output (file or database or both), you can remove the `file` or `database` section if you are not going to use it.
  The current supported database is MongoDB (https://www.mongodb.com/).
  
  The `search` defines the search options. `query` is required and can be any query supported by Twitter standard operators (https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/standard-operators.html).
