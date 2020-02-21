@@ -64,7 +64,7 @@ class TweetCrawler:
 				yield self.current_cursor.next()
 			except tweepy.TweepError as e:
 				if "429" in e.reason:
-					print("Rate Limit: ", self.current_account.username)
+					print("Rate Limit reached.")
 					print("Last id: ", self.last_max_id)
 					self.__refresh_account()
 					self.current_cursor = self.__get_cursor()
